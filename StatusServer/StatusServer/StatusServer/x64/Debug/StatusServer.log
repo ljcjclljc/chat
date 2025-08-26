@@ -1,0 +1,476 @@
+﻿  StatusServiceImpl.cpp
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\coded_stream.h(1277,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”:“std::atomic<bool>”需要有 dll 接口以供“google::protobuf::io::CodedOutputStream”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<bool>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\port.h(433,23): warning C4251: “google::protobuf::internal::RealDebugCounter::counter_”:“std::atomic<unsigned __int64>”需要有 dll 接口以供“google::protobuf::internal::RealDebugCounter”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(378,22): warning C4251: “google::protobuf::internal::SerialArena::ptr_”:“std::atomic<char *>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<char *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(386,22): warning C4251: “google::protobuf::internal::SerialArena::cleanup_list_”:“google::protobuf::internal::cleanup::ChunkList”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\arena_cleanup.h(59,7):
+      参见“google::protobuf::internal::cleanup::ChunkList”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(389,29): warning C4251: “google::protobuf::internal::SerialArena::string_block_”:“std::atomic<google::protobuf::internal::StringBlock *>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<google::protobuf::internal::StringBlock *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(394,23): warning C4251: “google::protobuf::internal::SerialArena::string_block_unused_”:“std::atomic<unsigned __int64>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(396,28): warning C4251: “google::protobuf::internal::SerialArena::head_”:“std::atomic<google::protobuf::internal::ArenaBlock *>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<google::protobuf::internal::ArenaBlock *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(397,23): warning C4251: “google::protobuf::internal::SerialArena::space_used_”:“std::atomic<unsigned __int64>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\serial_arena.h(398,23): warning C4251: “google::protobuf::internal::SerialArena::space_allocated_”:“std::atomic<unsigned __int64>”需要有 dll 接口以供“google::protobuf::internal::SerialArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\thread_safe_arena.h(142,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::alloc_policy_”:“google::protobuf::internal::TaggedAllocationPolicyPtr”需要有 dll 接口以供“google::protobuf::internal::ThreadSafeArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\arena_allocation_policy.h(41,7):
+      参见“google::protobuf::internal::TaggedAllocationPolicyPtr”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\thread_safe_arena.h(143,30): warning C4251: “google::protobuf::internal::ThreadSafeArena::arena_stats_”:“google::protobuf::internal::ThreadSafeArenaStatsHandle”需要有 dll 接口以供“google::protobuf::internal::ThreadSafeArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\arenaz_sampler.h(175,7):
+      参见“google::protobuf::internal::ThreadSafeArenaStatsHandle”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\thread_safe_arena.h(146,15): warning C4251: “google::protobuf::internal::ThreadSafeArena::mutex_”:“absl::lts_20250127::Mutex”需要有 dll 接口以供“google::protobuf::internal::ThreadSafeArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\synchronization\mutex.h(151,48):
+      参见“absl::lts_20250127::Mutex”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\thread_safe_arena.h(148,34): warning C4251: “google::protobuf::internal::ThreadSafeArena::head_”:“std::atomic<google::protobuf::internal::ThreadSafeArena::SerialArenaChunk *>”需要有 dll 接口以供“google::protobuf::internal::ThreadSafeArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<google::protobuf::internal::ThreadSafeArena::SerialArenaChunk *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\thread_safe_arena.h(246,39): warning C4251: “google::protobuf::internal::ThreadSafeArena::lifecycle_id_”:“std::atomic<unsigned __int64>”需要有 dll 接口以供“google::protobuf::internal::ThreadSafeArena”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\arenastring.h(60,43): warning C4251: “google::protobuf::internal::LazyString::inited_”:“std::atomic<const std::string *>”需要有 dll 接口以供“google::protobuf::internal::LazyString”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<const std::string *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\metadata_lite.h(248,15): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”:“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口以供“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(522,7):
+      参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\message_lite.h(223,31): warning C4251: “google::protobuf::internal::CachedSize::atom_”:“std::atomic<int>”需要有 dll 接口以供“google::protobuf::internal::CachedSize”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<int>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\message_lite.h(337,28): warning C4251: “google::protobuf::internal::ClassData::message_creator”:“google::protobuf::internal::MessageCreator”需要有 dll 接口以供“google::protobuf::internal::ClassData”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\message_lite.h(80,7):
+      参见“google::protobuf::internal::MessageCreator”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(145,42): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(145,42): warning C4267:         with
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(145,42): warning C4267:         [
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(145,42): warning C4267:             _Ty=int
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(145,42): warning C4267:         ]
+  (编译源文件“StatusServiceImpl.cpp”)
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\implicit_weak_message.h(85,32): warning C4251: “google::protobuf::internal::ImplicitWeakMessage::table_”:“google::protobuf::internal::TcParseTable<0,0,0,0,2>”需要有 dll 接口以供“google::protobuf::internal::ImplicitWeakMessage”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<0,0,0,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\implicit_weak_message.h(86,33): warning C4251: “google::protobuf::internal::ImplicitWeakMessage::class_data_”:“google::protobuf::internal::ClassDataLite<1>”需要有 dll 接口以供“google::protobuf::internal::ImplicitWeakMessage”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\message_lite.h(424,8):
+      参见“google::protobuf::internal::ClassDataLite<1>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(647,7): warning C4251: “google::protobuf::internal::ExtensionSet::maybe_create_lazy_extension_”:“std::atomic<google::protobuf::internal::ExtensionSet::LazyMessageExtension *(__cdecl *)(google::protobuf::Arena *)>”需要有 dll 接口以供“google::protobuf::internal::ExtensionSet”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\atomic(2112,8):
+      参见“std::atomic<google::protobuf::internal::ExtensionSet::LazyMessageExtension *(__cdecl *)(google::protobuf::Arena *)>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1199,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_t_”:“google::protobuf::RepeatedField<int>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<int>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1200,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_t_”:“google::protobuf::RepeatedField<int64_t>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<int64_t>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1201,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_t_”:“google::protobuf::RepeatedField<uint32_t>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<uint32_t>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1202,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_t_”:“google::protobuf::RepeatedField<uint64_t>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<uint64_t>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1203,25): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”:“google::protobuf::RepeatedField<double>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<double>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1204,24): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”:“google::protobuf::RepeatedField<float>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<float>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\extension_set.h(1205,23): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”:“google::protobuf::RepeatedField<bool>”需要有 dll 接口以供“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<bool>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2474,7): warning C4251: “google::protobuf::DescriptorPool::dispatcher_”:“std::unique_ptr<absl::lts_20250127::AnyInvocable<void (absl::lts_20250127::FunctionRef<void (void)>) const>,std::default_delete<absl::lts_20250127::AnyInvocable<void (absl::lts_20250127::FunctionRef<void (void)>) const>>>”需要有 dll 接口以供“google::protobuf::DescriptorPool”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      参见“std::unique_ptr<absl::lts_20250127::AnyInvocable<void (absl::lts_20250127::FunctionRef<void (void)>) const>,std::default_delete<absl::lts_20250127::AnyInvocable<void (absl::lts_20250127::FunctionRef<void (void)>) const>>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2480,27): warning C4251: “google::protobuf::DescriptorPool::tables_”:“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”需要有 dll 接口以供“google::protobuf::DescriptorPool”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251: “google::protobuf::DescriptorPool::direct_input_files_”:“absl::lts_20250127::flat_hash_map<std::string,bool,absl::lts_20250127::container_internal::StringHash,absl::lts_20250127::container_internal::StringEq,std::allocator<std::pair<const K,V>>>”需要有 dll 接口以供“google::protobuf::DescriptorPool”的客户端使用
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251:         with
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251:         [
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251:             K=std::string,
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251:             V=bool
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2493,42): warning C4251:         ]
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\container\flat_hash_map.h(128,28):
+      参见“absl::lts_20250127::flat_hash_map<std::string,bool,absl::lts_20250127::container_internal::StringHash,absl::lts_20250127::container_internal::StringEq,std::allocator<std::pair<const K,V>>>”的声明
+          with
+          [
+              K=std::string,
+              V=bool
+          ]
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.h(2497,39): warning C4251: “google::protobuf::DescriptorPool::feature_set_defaults_spec_”:“std::unique_ptr<google::protobuf::FeatureSetDefaults,std::default_delete<google::protobuf::FeatureSetDefaults>>”需要有 dll 接口以供“google::protobuf::DescriptorPool”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      参见“std::unique_ptr<google::protobuf::FeatureSetDefaults,std::default_delete<google::protobuf::FeatureSetDefaults>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\zero_copy_stream_impl_lite.h(235,30): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”:“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口以供“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3459,7):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\zero_copy_stream_impl_lite.h(329,30): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”:“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口以供“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3459,7):
+      参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\zero_copy_stream_impl_lite.h(403,28): warning C4251: “google::protobuf::io::CordInputStream::it_”:“absl::lts_20250127::Cord::CharIterator”需要有 dll 接口以供“google::protobuf::io::CordInputStream”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\strings\cord.h(626,9):
+      参见“absl::lts_20250127::Cord::CharIterator”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\zero_copy_stream_impl_lite.h(487,14): warning C4251: “google::protobuf::io::CordOutputStream::cord_”:“absl::lts_20250127::Cord”需要有 dll 接口以供“google::protobuf::io::CordOutputStream”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\strings\cord.h(171,7):
+      参见“absl::lts_20250127::Cord”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\io\zero_copy_stream_impl_lite.h(490,20): warning C4251: “google::protobuf::io::CordOutputStream::buffer_”:“absl::lts_20250127::CordBuffer”需要有 dll 接口以供“google::protobuf::io::CordOutputStream”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\strings\cord_buffer.h(105,7):
+      参见“absl::lts_20250127::CordBuffer”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\unknown_field_set.h(291,31): warning C4251: “google::protobuf::UnknownFieldSet::fields_”:“google::protobuf::RepeatedField<google::protobuf::UnknownField>”需要有 dll 接口以供“google::protobuf::UnknownFieldSet”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\repeated_field.h(246,7):
+      参见“google::protobuf::RepeatedField<google::protobuf::UnknownField>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\map.h(814,13): warning C4251: “google::protobuf::internal::UntypedMapBase::alloc_”:“google::protobuf::internal::MapAllocator<void *>”需要有 dll 接口以供“google::protobuf::internal::UntypedMapBase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\map.h(104,7):
+      参见“google::protobuf::internal::MapAllocator<void *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\message.h(1076,27): warning C4251: “google::protobuf::Reflection::tcparse_table_once_”:“absl::lts_20250127::once_flag”需要有 dll 接口以供“google::protobuf::Reflection”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\absl\base\call_once.h(89,7):
+      参见“absl::lts_20250127::once_flag”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(895,7): warning C4251: “google::protobuf::UninterpretedOption_NamePart::_table_”:“google::protobuf::internal::TcParseTable<1,2,0,62,2>”需要有 dll 接口以供“google::protobuf::UninterpretedOption_NamePart”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,0,62,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(1173,7): warning C4251: “google::protobuf::SourceCodeInfo_Location::_table_”:“google::protobuf::internal::TcParseTable<3,5,0,106,2>”需要有 dll 接口以供“google::protobuf::SourceCodeInfo_Location”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,0,106,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(1452,7): warning C4251: “google::protobuf::GeneratedCodeInfo_Annotation::_table_”:“google::protobuf::internal::TcParseTable<3,5,1,64,2>”需要有 dll 接口以供“google::protobuf::GeneratedCodeInfo_Annotation”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,1,64,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(1691,7): warning C4251: “google::protobuf::FieldOptions_FeatureSupport::_table_”:“google::protobuf::internal::TcParseTable<2,4,3,71,2>”需要有 dll 接口以供“google::protobuf::FieldOptions_FeatureSupport”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,4,3,71,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(1904,7): warning C4251: “google::protobuf::FieldOptions_EditionDefault::_table_”:“google::protobuf::internal::TcParseTable<1,2,1,57,2>”需要有 dll 接口以供“google::protobuf::FieldOptions_EditionDefault”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,1,57,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(2462,7): warning C4251: “google::protobuf::FeatureSet::_table_”:“google::protobuf::internal::TcParseTable<3,6,6,0,2>”需要有 dll 接口以供“google::protobuf::FeatureSet”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,6,6,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(2720,7): warning C4251: “google::protobuf::ExtensionRangeOptions_Declaration::_table_”:“google::protobuf::internal::TcParseTable<3,5,0,71,2>”需要有 dll 接口以供“google::protobuf::ExtensionRangeOptions_Declaration”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,0,71,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(2928,7): warning C4251: “google::protobuf::EnumDescriptorProto_EnumReservedRange::_table_”:“google::protobuf::internal::TcParseTable<1,2,0,0,2>”需要有 dll 接口以供“google::protobuf::EnumDescriptorProto_EnumReservedRange”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,0,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(3133,7): warning C4251: “google::protobuf::DescriptorProto_ReservedRange::_table_”:“google::protobuf::internal::TcParseTable<1,2,0,0,2>”需要有 dll 接口以供“google::protobuf::DescriptorProto_ReservedRange”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,0,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(3428,7): warning C4251: “google::protobuf::UninterpretedOption::_table_”:“google::protobuf::internal::TcParseTable<3,7,1,75,2>”需要有 dll 接口以供“google::protobuf::UninterpretedOption”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,7,1,75,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(3817,7): warning C4251: “google::protobuf::SourceCodeInfo::_table_”:“google::protobuf::internal::TcParseTable<0,1,1,0,2>”需要有 dll 接口以供“google::protobuf::SourceCodeInfo”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<0,1,1,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(4016,7): warning C4251: “google::protobuf::GeneratedCodeInfo::_table_”:“google::protobuf::internal::TcParseTable<0,1,1,0,2>”需要有 dll 接口以供“google::protobuf::GeneratedCodeInfo”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<0,1,1,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(4244,7): warning C4251: “google::protobuf::FeatureSetDefaults_FeatureSetEditionDefault::_table_”:“google::protobuf::internal::TcParseTable<2,3,3,0,2>”需要有 dll 接口以供“google::protobuf::FeatureSetDefaults_FeatureSetEditionDefault”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,3,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(4656,7): warning C4251: “google::protobuf::ServiceOptions::_table_”:“google::protobuf::internal::TcParseTable<2,3,2,0,12>”需要有 dll 接口以供“google::protobuf::ServiceOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,2,0,12>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(5057,7): warning C4251: “google::protobuf::OneofOptions::_table_”:“google::protobuf::internal::TcParseTable<2,2,2,0,7>”需要有 dll 接口以供“google::protobuf::OneofOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,2,2,0,7>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(5501,7): warning C4251: “google::protobuf::MethodOptions::_table_”:“google::protobuf::internal::TcParseTable<3,4,3,0,12>”需要有 dll 接口以供“google::protobuf::MethodOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,4,3,0,12>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(5963,7): warning C4251: “google::protobuf::MessageOptions::_table_”:“google::protobuf::internal::TcParseTable<3,7,2,0,7>”需要有 dll 接口以供“google::protobuf::MessageOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,7,2,0,7>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(6676,7): warning C4251: “google::protobuf::FileOptions::_table_”:“google::protobuf::internal::TcParseTable<5,21,3,202,12>”需要有 dll 接口以供“google::protobuf::FileOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<5,21,3,202,12>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(7346,7): warning C4251: “google::protobuf::FieldOptions::_table_”:“google::protobuf::internal::TcParseTable<4,14,8,0,7>”需要有 dll 接口以供“google::protobuf::FieldOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<4,14,8,0,7>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(7588,7): warning C4251: “google::protobuf::FeatureSetDefaults::_table_”:“google::protobuf::internal::TcParseTable<1,3,3,0,2>”需要有 dll 接口以供“google::protobuf::FeatureSetDefaults”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,3,3,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(8038,7): warning C4251: “google::protobuf::ExtensionRangeOptions::_table_”:“google::protobuf::internal::TcParseTable<3,4,4,0,12>”需要有 dll 接口以供“google::protobuf::ExtensionRangeOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,4,4,0,12>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(8480,7): warning C4251: “google::protobuf::EnumValueOptions::_table_”:“google::protobuf::internal::TcParseTable<3,5,3,0,7>”需要有 dll 接口以供“google::protobuf::EnumValueOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,3,0,7>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(8919,7): warning C4251: “google::protobuf::EnumOptions::_table_”:“google::protobuf::internal::TcParseTable<3,5,2,0,7>”需要有 dll 接口以供“google::protobuf::EnumOptions”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,2,0,7>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(9143,7): warning C4251: “google::protobuf::OneofDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<1,2,1,49,2>”需要有 dll 接口以供“google::protobuf::OneofDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,1,49,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(9423,7): warning C4251: “google::protobuf::MethodDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<3,6,1,71,2>”需要有 dll 接口以供“google::protobuf::MethodDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,6,1,71,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(9834,7): warning C4251: “google::protobuf::FieldDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<4,11,3,96,2>”需要有 dll 接口以供“google::protobuf::FieldDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<4,11,3,96,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(10075,7): warning C4251: “google::protobuf::EnumValueDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<2,3,1,53,2>”需要有 dll 接口以供“google::protobuf::EnumValueDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,1,53,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(10302,7): warning C4251: “google::protobuf::DescriptorProto_ExtensionRange::_table_”:“google::protobuf::internal::TcParseTable<2,3,1,0,2>”需要有 dll 接口以供“google::protobuf::DescriptorProto_ExtensionRange”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,1,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(10541,7): warning C4251: “google::protobuf::ServiceDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<2,3,2,51,2>”需要有 dll 接口以供“google::protobuf::ServiceDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,2,51,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(10822,7): warning C4251: “google::protobuf::EnumDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<3,5,3,61,2>”需要有 dll 接口以供“google::protobuf::EnumDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,5,3,61,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(11196,7): warning C4251: “google::protobuf::DescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<4,10,8,65,2>”需要有 dll 接口以供“google::protobuf::DescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<4,10,8,65,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(11621,7): warning C4251: “google::protobuf::FileDescriptorProto::_table_”:“google::protobuf::internal::TcParseTable<4,13,7,79,2>”需要有 dll 接口以供“google::protobuf::FileDescriptorProto”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<4,13,7,79,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor.pb.h(12015,7): warning C4251: “google::protobuf::FileDescriptorSet::_table_”:“google::protobuf::internal::TcParseTable<0,1,1,0,2>”需要有 dll 接口以供“google::protobuf::FileDescriptorSet”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<0,1,1,0,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(252,47): warning C4251: “google::protobuf::SimpleDescriptorDatabase::index_”:“google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>”需要有 dll 接口以供“google::protobuf::SimpleDescriptorDatabase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(177,9):
+      参见“google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<const google::protobuf::FileDescriptorProto *>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(253,59): warning C4251: “google::protobuf::SimpleDescriptorDatabase::files_to_delete_”:“std::vector<std::unique_ptr<const google::protobuf::FileDescriptorProto,std::default_delete<const google::protobuf::FileDescriptorProto>>,std::allocator<std::unique_ptr<const google::protobuf::FileDescriptorProto,std::default_delete<const google::protobuf::FileDescriptorProto>>>>”需要有 dll 接口以供“google::protobuf::SimpleDescriptorDatabase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      参见“std::vector<std::unique_ptr<const google::protobuf::FileDescriptorProto,std::default_delete<const google::protobuf::FileDescriptorProto>>,std::allocator<std::unique_ptr<const google::protobuf::FileDescriptorProto,std::default_delete<const google::protobuf::FileDescriptorProto>>>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(305,36): warning C4251: “google::protobuf::EncodedDescriptorDatabase::index_”:“std::unique_ptr<google::protobuf::EncodedDescriptorDatabase::DescriptorIndex,std::default_delete<google::protobuf::EncodedDescriptorDatabase::DescriptorIndex>>”需要有 dll 接口以供“google::protobuf::EncodedDescriptorDatabase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3332,7):
+      参见“std::unique_ptr<google::protobuf::EncodedDescriptorDatabase::DescriptorIndex,std::default_delete<google::protobuf::EncodedDescriptorDatabase::DescriptorIndex>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(306,22): warning C4251: “google::protobuf::EncodedDescriptorDatabase::files_to_delete_”:“std::vector<void *,std::allocator<void *>>”需要有 dll 接口以供“google::protobuf::EncodedDescriptorDatabase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      参见“std::vector<void *,std::allocator<void *>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\descriptor_database.h(380,36): warning C4251: “google::protobuf::MergedDescriptorDatabase::sources_”:“std::vector<google::protobuf::DescriptorDatabase *,std::allocator<google::protobuf::DescriptorDatabase *>>”需要有 dll 接口以供“google::protobuf::MergedDescriptorDatabase”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      参见“std::vector<google::protobuf::DescriptorDatabase *,std::allocator<google::protobuf::DescriptorDatabase *>>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\any.pb.h(314,7): warning C4251: “google::protobuf::Any::_table_”:“google::protobuf::internal::TcParseTable<1,2,0,36,2>”需要有 dll 接口以供“google::protobuf::Any”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,0,36,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\source_context.pb.h(241,7): warning C4251: “google::protobuf::SourceContext::_table_”:“google::protobuf::internal::TcParseTable<0,1,0,47,2>”需要有 dll 接口以供“google::protobuf::SourceContext”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<0,1,0,47,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\type.pb.h(391,7): warning C4251: “google::protobuf::Option::_table_”:“google::protobuf::internal::TcParseTable<1,2,1,35,2>”需要有 dll 接口以供“google::protobuf::Option”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<1,2,1,35,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\type.pb.h(770,7): warning C4251: “google::protobuf::Field::_table_”:“google::protobuf::internal::TcParseTable<4,10,1,72,2>”需要有 dll 接口以供“google::protobuf::Field”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<4,10,1,72,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\type.pb.h(1004,7): warning C4251: “google::protobuf::EnumValue::_table_”:“google::protobuf::internal::TcParseTable<2,3,1,38,2>”需要有 dll 接口以供“google::protobuf::EnumValue”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<2,3,1,38,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\type.pb.h(1305,7): warning C4251: “google::protobuf::Type::_table_”:“google::protobuf::internal::TcParseTable<3,7,3,46,2>”需要有 dll 接口以供“google::protobuf::Type”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,7,3,46,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\type.pb.h(1588,7): warning C4251: “google::protobuf::Enum::_table_”:“google::protobuf::internal::TcParseTable<3,6,3,40,2>”需要有 dll 接口以供“google::protobuf::Enum”的客户端使用
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\google\protobuf\generated_message_tctable_decl.h(492,8):
+      参见“google::protobuf::internal::TcParseTable<3,6,3,40,2>”的声明
+  
+G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(55,10): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(55,10):
+      默认构造函数或 copy/move 赋值运算符将忽略此成员
+  
+G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(61,10): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(61,10):
+      默认构造函数或 copy/move 赋值运算符将忽略此成员
+  
+G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(67,10): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(67,10):
+      默认构造函数或 copy/move 赋值运算符将忽略此成员
+  
+G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(73,10): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(73,10):
+      默认构造函数或 copy/move 赋值运算符将忽略此成员
+  
+G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(79,10): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  (编译源文件“StatusServiceImpl.cpp”)
+      G:\tool\vcpkg\installed\x64-windows\include\hiredis\sds.h(79,10):
+      默认构造函数或 copy/move 赋值运算符将忽略此成员
+  
+G:\C++\ljcchat\server\StatusServer\StatusServer\RedisMgr.h(158,27): warning C4101: “exp”: 未引用的局部变量
+  (编译源文件“StatusServiceImpl.cpp”)
+  
+  StatusServer.vcxproj -> G:\C++\ljcchat\server\StatusServer\StatusServer\x64\Debug\StatusServer.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
+  G:\C++\ljcchat\server\StatusServer\StatusServer\config.ini
+  复制了 1 个文件
