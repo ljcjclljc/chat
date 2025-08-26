@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\include\mysql-connector-c++-9.3.0-winx64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\include\mysql-connector-c++-9.3.0-winx64\lib64\vs14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>D:\include\mysql-connector-c++-9.3.0-winx64\lib64\debug\vs14\mysqlcppconn.lib;D:\include\mysql-connector-c++-9.3.0-winx64\lib64\debug\vs14\mysqlcppconnx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(ProjectDir)config.ini  $(SolutionDir)$(Platform)\$(Configuration)\   /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
